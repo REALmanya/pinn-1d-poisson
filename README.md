@@ -14,21 +14,21 @@ automatic differentiation, and numerical stability**.
 
 We consider the one-dimensional Poisson equation:
 
-\[
+$$
 \frac{d^2 u(x)}{dx^2} = \pi^2 \sin(\pi x), \quad x \in (0, 1)
-\]
+$$
 
 subject to homogeneous Dirichlet boundary conditions:
 
-\[
+$$
 u(0) = 0, \quad u(1) = 0
-\]
+$$
 
 The analytical solution is:
 
-\[
+$$
 u(x) = \sin(\pi x)
-\]
+$$
 
 ---
 
